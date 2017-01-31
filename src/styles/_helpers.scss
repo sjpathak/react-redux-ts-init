@@ -1,0 +1,36 @@
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
+
+.layout-padding {
+    padding: 17px;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+// hack to fix the always visible drop down label
+.dropdown-container .ms-Label { padding: 0px;}
+
+.field-error{
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a80000;
+    margin: 0;
+    padding-top: 5px;
+    animation-name: fadeIn,slideDownIn20;
+    -webkit-animation-duration: .367s;
+    -moz-animation-duration: .367s;
+    -ms-animation-duration: .367s;
+    -o-animation-duration: .367s;
+    animation-timing-function: cubic-bezier(.1,.9,.2,1);
+    animation-fill-mode: both;
+    .dropdown-container & { margin: -8px 0 3px 0; }
+}

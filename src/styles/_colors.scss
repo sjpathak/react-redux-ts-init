@@ -1,0 +1,38 @@
+//-- Color configuration
+$color-dark-contrast: rgb(255,255,255);
+$color-light-contrast: rgb(0,0,0);
+$color-transparent: transparent;
+
+$color-background: rgb(232,232,232);
+$color-text: rgb(10,10,10);
+$color-text-secondary: rgb(100,100,100);
+$color-text-accent: #DA291C;
+$color-text-light: rgb(255,255,255);
+
+$color-primary: rgb(40,40,40);
+$color-primary-lighter: rgb(75,75,75);
+$color-primary-dark: rgb(10,10,10);
+$color-accent: #DA291C;
+$color-accent-dark: #DA291C;
+$color-primary-contrast: $color-dark-contrast;
+$color-accent-contrast: $color-dark-contrast;
+
+$color-app-bg: #EAEBED;
+$color-border: #E0E0E0;
+
+$color-input-background:rgb(247,247,247);
+$input-text-background-color: $color-input-background;
+$color-hover-background: #E1E1E1;
+
+$color-form-text: rgba(0, 0, 0, 0.870588);
+
+$color-form-border: #E0E0E0;
+$color-form-error: #F44339;
+
+$color-panel-background: #FFF;
+$color-section-title: #505050;
+$color-section-title-text: #FFF;
+
+$color-field-value-text: #F0F0F0;
+$color-multiselect-bg: #F9F9F9;
+$color-tabs-bg: #CCC;
